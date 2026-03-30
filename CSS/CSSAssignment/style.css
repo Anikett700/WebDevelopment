@@ -49,17 +49,19 @@
 .login {
   /* border: none; */
   font-size: xx-large;
-  margin: 0 20px;
-}
+  /* margin: 0 20px; */
+  margin-left: 50px;
+  margin-top: 20px;
+  }
 
 .textDiv {
   display: flex;
   align-items: flex-end;
-  font-size: large;
+  font-size: medium;
   margin: 0 20px;
   border-bottom: 1px solid gray;
   width: 350px;
-  margin-left: 40px;
+  margin-left: 50px;
 }
 
 #button {
@@ -77,20 +79,61 @@
 }
 
 input::placeholder{
-  
-    font: 1rem/3 sans-serif;
+  color: gray;
+    font: 1.1rem sans-serif;
+}
+
+input{
+  height: 20px;
+  padding: 10px;
 }
 
 #border{
   border: none;
 }
 
+
 .link{
+  margin-left: 3px;
   color: blue;
 }
 
 .textSpace{
   display: flex;
-  al
 
+}
+
+svg{
+  color: gray;
+  height: 45px;
+  width: 22px;
+}
+
+.eyeMove{
+  color: grey;
+  margin-bottom: -6px;
+  margin-left: 110px;
+}
+
+
+#lastLine{
+  color: gray;
+  margin-left: 90px;
+  margin-bottom: 30px;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+#remember{ 
+  color: gray;
+  font-size: medium;
+  margin-left: 10px;
+}
+
+#forgotPass{
+  font-size: medium;
+  margin-left: 70px;
 }
