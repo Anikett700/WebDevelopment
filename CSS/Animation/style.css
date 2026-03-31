@@ -1,0 +1,33 @@
+#div1 {
+  width: 50px;
+  border: 1px solid black;
+  height: 20px;
+  overflow: hidden;
+  text-wrap-mode: nowrap;
+  color: aqua;
+  transition:
+    width 5s linear,
+    color 5s linear;
+}
+
+#div1:hover {
+  width: 850px;
+  color: red;
+}
+
+#div2 {
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+  margin: auto;
+  color: red;
+  transition: transform 2s linear;
+}
+
+#div2:hover{
+    /* transform: sKewX(90deg); */
+
+    transform: sKewX(90deg);
+
+}
+
