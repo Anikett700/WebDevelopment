@@ -4,155 +4,86 @@
   font-family: "Poppins", sans-serif;
 }
 
-header {
-  height: 100px;
+#navBar {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding: 0 100px;
+  align-items: center;
+  padding: 10px 70px;
+  height: 70px;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
   background-color: white;
-  padding: 0 80px;
-  font-size: large;
 
-  a {
-    color: black;
-    text-decoration: none;
-  }
-
-  #nav1 {
+  .logoDiv {
     display: flex;
     align-items: center;
-    gap: 80px;
+    gap: 100px;
 
-    #navbutton {
+    .features {
       display: flex;
       gap: 50px;
     }
   }
 
-  #nav2 {
+  a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+  }
+  .contact {
     display: flex;
     align-items: center;
-    gap: 20px;
-  }
-
-  button {
-    background-color: #125785;
-    box-shadow: 6px 6px 0 0 #79b6de;
-    height: 50px;
-    width: 160px;
-    border: none;
-    color: white;
-    font-size: large;
-    border: none;
-    border-radius: 5px;
-  }
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 10px;
-  background-color: #eaf8fe;
-  margin: 40px auto;
-  padding: 50px 20px;
-  border-radius: 20px;
-  width: 70%;
-
-  .form-heading {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-    color: gray;
-
-    h1 {
-      color: black;
-      font-size: 35px;
-    }
-
-    p {
-      color: rgb(73, 72, 72);
-    }
-  }
-
-  .form-input {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    gap: 25px;
-    color: rgb(88, 88, 88);
-
-    .item {
-      display: grid;
-      text-align: start;
-      gap: 10px;
-    }
-  }
-}
-
-input,
-select {
-  font-size: 17px;
-  width: 400px;
-  padding: 20px;
-  border-radius: 8px;
-  border: 1px solid gray;
-}
-
-.email {
-  width: 600px;
-}
-
-.qualification {
-  width: 210px;
-}
-
-.college {
-  width: 880px;
-}
-
-.select {
-  width: 460px;
-}
-
-.formInput {
-  padding: 30px 30px;
-  display: flex;
-  gap: 10px;
-  justify-content: space-between;
-  align-items: center;
-
-  .first {
-    width: 50%;
-    display: grid;
     gap: 10px;
-    color: rgb(88, 88, 88);
 
-    .first-checkbox {
-      display: flex;
+    button {
+      height: 47px;
+      width: 150px;
+      border: none;
+      border-radius: 8px;
+      background-color: #125785;
+      box-shadow: 5px 5px 0 0 #79b6de;
+
+      a {
+        color: white;
+      }
+    }
+  }
+}
+
+/* main {
+  width: 100vw;
+  height: 100vh;
+  color: rgb(85, 85, 85);
+} */
+
+form{
+  display: grid;
+  width: 70%;
+  margin: 5% 15%;
+  justify-items: center;
+  background-color:aqua;
+  text-align: center;
+  gap: 20px;
+
+  h1{
+    padding:15px;
+    align-items: end;    
+  }
+
+  .form-item{
+    display: flex;
+    justify-content: space-between;
+    gap: 30%;
+
+    .input{
+      display: grid;
       gap: 10px;
+
+      input{
+        padding: 10% 70%;
+      }
     }
-  }
-
-  .second {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-
-    .para-second {
-      font-weight: bold;
-    }
-  }
-
-  .item {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
   }
 }
 
-footer {
-  background-color: #125785;
-}
