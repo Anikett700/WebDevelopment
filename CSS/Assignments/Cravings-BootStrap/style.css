@@ -22,11 +22,11 @@ header {
   position: sticky;
   top: 0;
   z-index: 999;
-
-  height: 70px;
+  /* height: 70px; */
   background-color: var(--color-primary);
   padding: 3px 50px;
 }
+
 header a img {
   cursor: pointer;
   width: 100px;
@@ -34,7 +34,7 @@ header a img {
 
 header button {
   cursor: pointer;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #loginBtn {
@@ -169,26 +169,39 @@ header button {
   }
 }
 
-.last-section{
+.last-section {
+  padding: 80px 0;
   background-color: var(--color-primary);
-  a{
+  a {
     font-size: 20px;
     background-color: var(--color-base-200);
     color: var(--color-primary);
   }
 }
 
-Footer{
-  background-color: #3f3f46; 
+Footer {
+  background-color: #3f3f46;
 }
 
-#Footer-Section a:hover {
-  text-decoration: underline;
+#Footer-Section {
+  margin: 0 8%;
+
+  a {
+    text-decoration: underline;
+  }
 }
 
 hr {
-  height: 1px;            
-  background-color: #fff;  
-  border: none;          
-  opacity: 1;     
+  height: 1px;
+  background-color: #fff;
+  border: none;
+  opacity: 1;
+}
+
+
+.bg-img {
+  background-image: url('./images/foodTable.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
