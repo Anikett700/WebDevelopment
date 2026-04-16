@@ -214,3 +214,7 @@ hr {
 .btn-primary-custom:hover {
   background-color: #a3360a;
 }
+
+#card-logReg{
+  margin-left: 100px;
+}
