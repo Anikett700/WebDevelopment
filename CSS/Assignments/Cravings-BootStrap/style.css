@@ -97,31 +97,24 @@ footer a:hover {
     rgb(231, 196, 196) 50%,
     rgb(255, 255, 255) 100%
   );
-
   p {
     font-size: medium;
   }
-
   .card {
     background-color: var(--color-base-100);
   }
-
   .small-btn {
     background-color: var(--color-base-300);
   }
-
   hr {
     color: var(--color-base-300);
   }
-
   .btn {
     background-color: var(--color-primary);
   }
-
   button {
     padding: 13px;
   }
-
   img {
     height: 220px;
   }
@@ -148,11 +141,9 @@ footer a:hover {
 
 #rating {
   background-color: var(--color-base-100);
-
   p {
     font-size: 18px;
   }
-
   #rate1 {
     color: var(--color-primary);
   }
@@ -298,13 +289,62 @@ hr {
   background-color: var(--color-primary);
   color: white;
 }
-#circle-section{
+#circle-section {
   background-color: var(--color-base-100);
-  #para{
+  #para {
     color: var(--color-primary);
   }
 }
 
+.orderPage-card {
+  background-color: var(--color-base-200);
+  p {
+    font-size: medium;
+  }
+  .card {
+    background-color: var(--color-base-100);
+  }
+  .small-btn {
+    background-color: var(--color-base-300);
+  }
+  hr {
+    color: var(--color-base-300);
+  }
+  .btn {
+    background-color: var(--color-primary);
+  }
+  button {
+    padding: 13px;
+  }
+  img {
+    height: 220px;
+  }
+}
 
+.Order-inputDiv {
+  background-color: var(--color-base-200) !important;
 
+}
+.Order-inputDiv {
+  position: sticky;
+  top: 70px; 
+  z-index: 99;
+}
 
+.Order-inputDiv .input {
+  background-color: var(--color-base-100);
+}
+
+.Order-inputDiv .input input {
+  background-color: var(--color-base-100);
+}
+
+.Order-inputDiv .input input::placeholder {
+  color: var(--color-primary);
+  opacity: 60%;
+}
+
+.Order-inputDiv .inputParent {
+  border: 1px solid var(--color-primary);
+  border-radius: 10px;
+}
