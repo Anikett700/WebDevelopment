@@ -454,3 +454,20 @@ ul li::marker {
   /* opacity:200 !important; */
 }
 
+.sitemap-main{
+  background-color: var(--color-base-100);
+  h5{
+    font-size: 15px;
+    font-weight:700;
+    color: var(--color-primary);
+  }
+
+  i{
+    padding-right: 5px;
+    opacity: 60%;
+    font-size: 13px;
+    color: var(--color-primary);
+  }
+}
+
+
